@@ -1,10 +1,10 @@
 import "./App.css";
-import Header from "./Header";
-import Home from "./Home";
-import About from "./About";
+import Header from "./sections/Header";
+import Home from "./pages/Home";
+import About from "./pages/About";
 import { useState } from "react";
-import Projects from "./Projects";
-import Contact from "./Contact";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 function App() {
   const [activeLink, setIsActiveLink] = useState("");
@@ -18,17 +18,17 @@ function App() {
   return (
     <div className="App">
       <div className="max-w-6xl sm:max-w-6xl sm:mx-auto">
-            <Header
-        handelActive={handelActive}
-        setIsActiveLink={setIsActiveLink}
-        activeLink={activeLink}
-        handelClicked={handelClicked}
-        isClicked={isClicked}
-        setIsClicked={setIsActiveLink}
-      />
-      <Home />
-      <About activeLink={activeLink} handelActive={handelActive} />
-      <Projects/>  
+        <Header
+          handelActive={handelActive}
+          setIsActiveLink={setIsActiveLink}
+          activeLink={activeLink}
+          handelClicked={handelClicked}
+          isClicked={isClicked}
+          setIsClicked={setIsActiveLink}
+        />
+        <Home />
+        <About/>
+        <Projects />
       </div>
 
       <Contact />
