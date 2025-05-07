@@ -26,7 +26,7 @@ export default function Skills() {
         <span className="text-lg font-medium text-gray-700">{name}</span>
         <span className="text-lg text-gray-500">{level}%</span>
       </div>
-      <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
+      <div className="h-2 bg-gray-300 rounded-full overflow-hidden">
         <div
           className="h-full bg-blue-600 rounded-full transition-all duration-500"
           style={{ width: `${level}%` }}
