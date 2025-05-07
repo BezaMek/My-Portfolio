@@ -3,7 +3,11 @@ import Deskgirl from "../assets/Deskgirl.png";
 import leftArrow from "../assets/leftArrow.svg";
 
 export default function Home() {
-  const Words = ["A React Developer", "A Technical Specialist Support", "A Next.js Developer"];
+  const Words = [
+    "A React Developer",
+    "A Technical Specialist Support",
+    "A Next.js Developer",
+  ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -11,7 +15,7 @@ export default function Home() {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % Words.length);
     }, 2000);
     return () => clearInterval(interval);
-  }, []);
+  }, [Words.length]);
 
   return (
     <section

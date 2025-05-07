@@ -24,7 +24,7 @@ export default function Header({
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, []);
+  }, [setIsClicked]);
 
   const navLinks = [
     { id: "home", href: "#hero", label: "Home" },
