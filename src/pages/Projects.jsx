@@ -13,6 +13,31 @@ export default function Projects() {
     },
     {
       id: 2,
+      title: "Website design",
+      description: "A modern website built with Nextjs",
+      icon: Movie,
+      link: "https://palnet.pages.dev/",
+      tags: ["React", "API", "Responsive"],
+    },
+    {
+      id: 3,
+      title: "Website design",
+      description: "A modern website built with Nextjs",
+      icon: Movie,
+      link: "https://bolgroup.pages.dev",
+      tags: ["Nextjs",  "Responsive"],
+    },
+    {
+      id: 4,
+      title: "Website design",
+      description: "A modern website built with Nextjs",
+      icon: Movie,
+      link: "https://bol-8lz.pages.dev/",
+      tags: ["Nextjs", "Responsive"],
+    },
+  
+    {
+      id: 5,
       title: "Currency Converter",
       description: "A modern Currency Converter site built using react",
       icon: Cake,
@@ -20,7 +45,7 @@ export default function Projects() {
       tags: ["React", "API", "UI/UX"],
     },
     {
-      id: 3,
+      id: 6,
       title: "Investment Calculator",
       description: "A modern investment calculator site built using react",
       icon: Cake,
@@ -28,7 +53,7 @@ export default function Projects() {
       tags: ["React", "API", "UI/UX"],
     },
     {
-      id: 4,
+      id: 7,
       title: "Order Page",
       description: "An e-commerce order management system",
       icon: Cake,
@@ -36,7 +61,7 @@ export default function Projects() {
       tags: ["React", "E-commerce", "UI/UX"],
     },
     {
-      id: 5,
+      id: 8,
       title: "Period Tracker",
       description: "A period tracker app built using react",
       icon: Cake,
