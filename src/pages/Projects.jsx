@@ -63,9 +63,9 @@ export default function Projects() {
     {
       id: 8,
       title: "Period Tracker",
-      description: "A period tracker app built using react",
+      description: "A period tracker web app built using nextjs",
       icon: Cake,
-      link: "https://period-tracker.bezamekonnen.com/",
+      link: "https://newtracker.pages.dev/",
       tags: ["React", "API", "UI/UX"],
     },
   ];
